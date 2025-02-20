@@ -16,8 +16,8 @@ title: Contact - Sreeja Yalamaddi
     <div class="social-links">
         <h3>Connect on Social Media</h3>
         <ul>
-            <li><a href="https://www.linkedin.com/in/sreeja-yalamaddi" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/sreejayalamaddi" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/sreeja-yalamaddi-125sr/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/Sreeja1503/" target="_blank">GitHub</a></li>
         </ul>
     </div>
 
