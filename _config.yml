@@ -1,48 +1,21 @@
-# Site settings
 title: Sreeja Yalamaddi's Portfolio
-email: sreeja.yalamaddi125@gmail.com
-description: >-
-  Welcome to my personal portfolio! I'm a Machine Learning Engineer passionate about AI, NLP, and deep learning. 
-  Explore my projects, skills, and experience here.
-
-baseurl: "" # Keep empty if deploying to GitHub Pages root
-url: "https://sreeja1503.github.io" # Your GitHub Pages URL
-
-twitter_username: ""  # Add your Twitter handle if available
-github_username: Sreeja1503
-linkedin_username: sreeja-yalamaddi-125sr
+email: sreejayalamaddi125@gmail.com
+description: "AI & Data Science Professional"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 
 # Build settings
-theme: minima
+markdown: kramdown
+theme: minima # You can change the theme if you want
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag  # Helps with SEO optimization
-  - jekyll-sitemap  # Generates a sitemap.xml for better search engine indexing
 
-# Navigation (if applicable)
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Projects"
-    url: "/projects"
-  - title: "Blog"
-    url: "/blog"
-  - title: "Contact"
-    url: "/contact"
-
-# Social Links (for Minima theme or custom usage)
-social_links:
-  github: https://github.com/Sreeja1503
-  linkedin: https://www.linkedin.com/in/sreeja-yalamaddi-125sr/
-  email: mailto:sreeja.yalamaddi125@gmail.com
-
-# Exclude unnecessary files from processing
+# Exclude from processing.
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/
-  - README.md  # Exclude if you don’t want it processed
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
