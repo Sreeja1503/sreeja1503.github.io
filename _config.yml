@@ -1,9 +1,9 @@
-title: Sreeja Yalamaddi's Portfolio
+title: Sreeja Yalamaddi
 email: sreejayalamaddi125@gmail.com
 description: "AI & Data Science Professional"
 baseurl: "" 
 url: "https://sreeja1503.github.io"
-theme: jekyll-theme-dinky
+theme: jekyll-theme-cayman
 css: css/style.css # Link to custom CSS if needed
 
 # Exclude from processing.
