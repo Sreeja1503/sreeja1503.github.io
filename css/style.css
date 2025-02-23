@@ -215,6 +215,7 @@ section {
     flex-direction: column;
     text-align: center;
     margin-top: 20px;
+
 }
 
 .hero-content {
@@ -244,7 +245,7 @@ section {
     background: var(--secondary-color);
     padding: 10px;
     border-radius: 10px;
-	border: 2px solid white; /* Added border */
+	border: 1px solid white; /* Added border */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
