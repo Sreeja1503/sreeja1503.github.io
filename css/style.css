@@ -97,7 +97,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -151,6 +151,61 @@ section {
     color: white; /* Sky Blue for project headings */
     margin-top: 0;
     margin-bottom: 10px;
+	text-align: center;
+}
+/* Projects Section Styling */
+
+.projects-section h2 {
+    font-size: 1.5em;
+	margin-top: 0px;
+	padding: 0px;
+    margin-bottom: 0px;
+}
+
+/* Tab Styling */
+.tabs {
+    display: flex;
+	padding: 5px;
+    margin: 0px auto;
+    align-items: center;
+}
+.tab-content h3 {
+    color: var(--secondary-color); /* Sky Blue for project headings */
+    margin-top: 0;
+	margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.tab-button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: var(--secondary-color);
+	color : white;
+    cursor: pointer;
+	border-radius: 5px;
+	margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+    background-color: var(--secondary-color);
+	color : var(--primary-color);
+	font-weight: bold;
+}
+
+.tab-button.active {
+	background-color: var(--secondary-color);
+    color: white;
+	font-weight: bold;
+}
+
+/* Tab Content Styling */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
 }
 
 /* About Me */
@@ -171,7 +226,8 @@ section {
 .about-me h3 {
     color: white; /* Sky Blue for about-me headings */
     margin-top: 0;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+	text-align: center;
 }
 
 /* Experience */
