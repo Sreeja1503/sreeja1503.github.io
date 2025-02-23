@@ -4,48 +4,53 @@ title: Experience - Sreeja Yalamaddi
 ---
 
 <section>
-    <h2>Professional Experience</h2>
+    <h2>Research Experience</h2>
+	
+	    <div class="experience">
+			<h3>Graduate Research Assistant</h3>
+			<h4>The University of Texas at San Antonio, San Antonio, TX</h4>
+			<p><em>August 2024 - Present</em></p>
+			<p>As a Graduate Research Assistant, I am involved in cutting-edge research in AI and machine learning, focusing on large language models and multimodal data analysis.</p>
+			<ul>
+				<li>Conducting research on fine-tuning strategies for large language models (LLMs) to improve performance on domain-specific tasks.</li>
+				<li>Developing preprocessing pipelines for multimodal wearable sensor data, enhancing data quality for subsequent analysis.</li>
+			</ul>
+		</div>
+	<h2>Professional Experience</h2>
+		<div class="experience">
+			<h3>Data Science Specialist</h3>
+			<h4>Dr. Reddy's Laboratories, Hyderabad, India</h4>
+			<p><em>February 2022 - Present</em></p>
+			<p>Led data science projects for the quality team, collaborating with stakeholders to identify use cases, design solutions, and deploy models that enhanced manufacturing processes and regulatory compliance.</p>
+			<ul>
+				<li>Designed and implemented a <strong>Root Cause Recommendation system</strong> using NLP techniques to analyze historical quality deviation data, leading to a <strong>23% reduction in the time spent on quality investigations</strong> by suggesting possible root causes and corrective actions (CAPA).</li>
+				<li>Developed a <strong>deficiency analytics tool</strong> using NLP techniques for regulatory document analysis. The system provided a <strong>chat-like interface</strong> for users to interact with past deficiencies, flagging potential gaps in content and automatically analyzing large volumes of regulatory documents, improving analysis efficiency by <strong>30%</strong> and ensuring compliance.</li>
+				<li>Collaborated across teams to understand process parameters, designing a <strong>forecasting model</strong> to predict equipment failures, reducing unplanned downtime by <strong>20%</strong> and improving maintenance scheduling accuracy.</li>
+				<li>Applied optimization algorithms to improve manufacturing and quality processes. Developed scheduling assistant solutions to optimize make span and resource utilization, which had the potential to reduce penalties of ₹10+ Crores.</li>
+			</ul>
+		</div>
 
-    <div class="experience">
-        <h3>Graduate Research Assistant</h3>
-        <h4>The University of Texas at San Antonio, San Antonio, TX</h4>
-        <p><em>August 2024 - Present</em></p>
-        <p>As a Graduate Research Assistant, I am involved in cutting-edge research in AI and machine learning, focusing on large language models and multimodal data analysis.</p>
-        <ul>
-            <li>Conducting research on fine-tuning strategies for large language models (LLMs) to improve performance on domain-specific tasks.</li>
-            <li>Developing preprocessing pipelines for multimodal wearable sensor data, enhancing data quality for subsequent analysis.</li>
-            <li>Implementing distributed training techniques to optimize model training on large datasets.</li>
-            <li>Collaborating with faculty and fellow researchers on publications and conference presentations.</li>
-            <li>Assisting in grant writing and literature reviews to support ongoing research projects.</li>
-        </ul>
-    </div>
+		<div class="experience">
+			<h3>Senior Software Engineer, AIML</h3>
+			<h4>ACS Solutions, Hyderabad, India</h4>
+			<p><em>May 2021 – January 2022</em></p>
+			<p>Led AI-driven projects, optimizing operations and enhancing client outcomes, while mentoring junior engineers and managing project documentation.</p>
+			<ul>
+				<li>Developed a scheduling tool that increased annual revenue by $113K.</li>
+				<li>Built an <strong>automated text extraction tool</strong> using state-of-the-art OCR and NLP techniques to extract PHI & PPI from patient medical records, improving medical coder productivity by <strong>15.3%</strong> and accelerating patient data processing.</li>
+			</ul>
+		</div>
 
-    <div class="experience">
-        <h3>Data Science Specialist</h3>
-        <h4>Dr. Reddy's Laboratories, Hyderabad, India</h4>
-        <p><em>February 2022 - March 2024</em></p>
-        <p>At Dr. Reddy's, I applied advanced data science techniques to optimize pharmaceutical manufacturing processes and enhance drug discovery efforts.</p>
-        <ul>
-            <li>Developed and implemented anomaly detection models that reduced quality incidents in manufacturing by 20%, resulting in significant cost savings.</li>
-            <li>Led the integration of Generative AI and NLP techniques to analyze research papers, improving information retrieval efficiency by 25%.</li>
-            <li>Designed and deployed Mixed-Integer Linear Programming (MILP) algorithms for production scheduling, increasing overall equipment effectiveness by 15%.</li>
-            <li>Collaborated with cross-functional teams to translate complex data insights into actionable strategies, supporting data-driven decision-making across the organization.</li>
-            <li>Mentored junior data scientists, fostering a culture of continuous learning and innovation within the team.</li>
-        </ul>
-    </div>
-
-    <div class="experience">
-        <h3>Data Scientist</h3>
-        <h4>ACS Solutions, Hyderabad, India</h4>
-        <p><em>June 2019 - January 2022</em></p>
-        <p>At ACS Solutions, I focused on developing predictive models and conducting in-depth data analysis to drive business improvements across various client projects.</p>
-        <ul>
-            <li>Spearheaded the development of predictive models for inventory management, resulting in an 18% reduction in inventory costs for a major retail client.</li>
-            <li>Implemented time series forecasting models to predict customer demand, improving forecast accuracy by 22% and optimizing supply chain operations.</li>
-            <li>Conducted exploratory data analysis and created interactive dashboards using Tableau, providing clients with actionable insights for strategic decision-making.</li>
-            <li>Utilized machine learning algorithms to develop a customer churn prediction model, enabling proactive retention strategies that reduced churn rate by 15%.</li>
-            <li>Collaborated with the IT team to implement data pipelines and ETL processes, enhancing data quality and accessibility across the organization.</li>
-        </ul>
-    </div>
-
+		<div class="experience">
+			<h3>Software Engineer, AIML</h3>
+			<h4>ACS Solutions, Hyderabad, India</h4>
+			<p><em>July 2018 - April 2021</em></p>
+			<p>In my role as a Software Engineer, I developed AI solutions to support business optimization, improving operational outcomes and driving customer satisfaction.</p>
+			<ul>
+				<li>Developed a <strong>video analysis application</strong> for retail clients using object detection and multi-object tracking, increasing sales by <strong>17%</strong> globally.</li>
+				<li>Built an <strong>audio insight pipeline</strong> using Speech-to-Text APIs and NLP to extract customer information from conversations, improving SLA compliance by <strong>3.2x</strong>.</li>
+				<li>Developed a <strong>treatment recommendation system</strong> using similarity search algorithms, reducing patient record review time by <strong>13.6%</strong> and optimizing care delivery efficiency.</li>
+			</ul>
+		</div>
+		
 </section>

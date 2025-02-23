@@ -1,65 +1,104 @@
 /* Variables */
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
-    --background-color: #f4f4f4;
-    --text-color: #333;
-    --accent-color: #e74c3c;
+    --primary-color: #3498db; /* Sky Blue */
+    --secondary-color: #2c3e50; /* Navy Blue */
+    --background-color: #f4f4f4; /* Light Gray */
+    --text-color: #333;        /* Dark Gray */
+    --accent-color: #e74c3c;    /* Red */
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+    width: 225px; /* Adjust the size as needed */
+    height: 225px;
+    border-radius: 50%; /* Make it circular */
+    margin-bottom: 20px; /* Add spacing below the image */
+    object-fit: cover; /* Ensure the image fills the circle */
+    display: block; /* Ensure proper margins */
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
 }
 
 /* Global Styles */
 body {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-color: var(--background-color);
-    margin: 0;
+    background-color: var(--secondary-color);
+    margin: 20;
     padding: 0;
 }
 
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 auto;
+	margin-top: 0; /* Spacing above the heading */
+    margin-bottom: 15px;
+
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 20px;
-    color: var(--secondary-color);
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+	margin-left: 0 auto;
+    margin-bottom: 15px;
+    color: var(--secondary-color); /* Navy Blue for headings */
 }
 
-h1 { font-size: 2.5em; }
-h2 { font-size: 2em; }
-h3 { font-size: 1.75em; }
+h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white; /* Navy Blue for headings */
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.25em; }
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 0; /* Spacing above the heading */
+    margin-left: 20px; /* Added some left margin to avoid it being too close to the edge */
+    margin-right: 20px; /* Added right margin for symmetry */
+    margin-bottom: 5px;
+    color: var(--secondary-color); /* Navy Blue for headings */
+    text-align: center; /* Center-align the heading */
+}
 
 p {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
 
 a {
-    color: var(--primary-color);
+    color: white; /* Sky Blue for links */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #217dbb; /* Darker shade of primary color */
+    color: #217dbb; /* Darker shade of primary color on hover */
 }
 
 /* Header */
 header {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color); /* Navy Blue for header background */
     color: white;
-    padding: 20px 0;
+    padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px; /* Set a max width for the header */
-    margin: 0 auto; /* Center the header */
-    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header h1 {
@@ -80,90 +119,166 @@ header nav a {
 }
 
 header nav a:hover {
-    color: var(--primary-color);
+    color: var(--primary-color); /* Sky Blue on hover */
 }
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-        max-width: 100%; /* Ensure the header takes full width on small screens */
-    }
-
-    header h1 {
-        font-size: 1.5em;
-    }
-
-    header nav {
-        margin-top: 10px;
-    }
-
-    header nav a {
-        margin-right: 15px;
-    }
-}
-
 
 /* Sections */
 section {
-    margin: 40px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: white;
-    padding: 30px;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 10px;
     box-shadow: 0 2px 15px rgba(0,0,0,0.1);
 }
 
-/* Contact Section */
-.contact-info {
-    background-color: var(--secondary-color);
-    color: white;
+/* Projects */
+.project {
+	background-color: var(--secondary-color);
+	color : white;
+    border: 1px solid #e0e0e0;
     padding: 15px;
-    border-radius: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
 }
 
-.contact-info a {
-    color: var(--accent-color);
+.project:hover {
+    transform: translateY(-5px);
 }
 
-.contact-info a:hover {
-    color: #c0392b; /* Darker shade of accent color */
-}
-
-/* Social Media Links */
-.social-links ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-}
-
-.social-links ul li {
+.project h3 {
+    color: white; /* Sky Blue for project headings */
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
-.social-links ul li a {
-    color: var(--primary-color);
-    font-size: 1.1em;
-    transition: color 0.3s ease;
-}
-
-.social-links ul li a:hover {
-    color: var(--accent-color);
-}
-
-/* Availability Section */
-.availability {
-    background-color: var(--primary-color);
-    color: white;
+/* About Me */
+.about-me {
+	background-color: var(--secondary-color);
+	color : white;
+    border: 1px solid #e0e0e0;
     padding: 15px;
-    border-radius: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.about-me:hover {
+    transform: translateY(-5px);
+}
+
+.about-me h3 {
+    color: white; /* Sky Blue for about-me headings */
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+/* Experience */
+.experience {
+	background-color: var(--secondary-color);
+	color : white;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.experience h3 {
+	
+    color: white; /* White for experience headings */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.experience h4 {
+	
+    color: white; /* White for experience headings */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.experience p {
+    font-style: italic;
+    color: white;
+    margin-top: 0;
+}
+
+.experience ul {
+    padding-left: 25px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* Adjusts space between image and text */
+}
+
+.profile-pic {
+    width: 220px; /* Adjust size as needed */
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.welcome-text {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white ;
+}
+
+.bio-container {
+    max-width: 800px;
+    text-align: left;
+    margin-top: 20px;
+    background: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+	border: 2px solid white; /* Added border */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact */
+.contact-info {
+    background-color: var(--secondary-color); /* Navy Blue for contact info */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+.contact-info a {
+    color: var(--accent-color); /* Red for contact info links */
+}
+
+/* index */
+.hero {
+    background-color: var(--secondary-color); /* Navy Blue for contact info */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+.hero h4 {
+text-align: center;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color); /* Navy Blue for footer */
     color: white;
     margin-top: 40px;
 }
@@ -171,7 +286,12 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     header {
+        flex-direction: column;
         text-align: center;
+    }
+
+    header h1 {
+        font-size: 1.5em;
     }
 
     header nav {
