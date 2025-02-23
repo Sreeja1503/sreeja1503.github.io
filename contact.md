@@ -21,7 +21,7 @@ title: Contact - Sreeja Yalamaddi
 			
 			<li>Let’s connect on <strong><a href="https://www.linkedin.com/in/sreeja-yalamaddi-125sr/" target="_blank">LinkedIn</a></strong> —I’d be happy to chat about AI trends, career opportunities, or potential collaborations! </li>
 			
-			<li> Check out my projects @ <strong><a href="https://github.com/Sreeja1503/" target="_blank">GitHub</a></strong> </li>
+			<li> Check out my projects @ <strong><a href="https://github.com/sreeja-yalamaddi/" target="_blank">GitHub</a></strong> </li>
 		</ul>
 
 		<p>I’m really excited about the chance to collaborate with like-minded professionals and create innovative solutions. Let’s make something impactful together! 🚀</p>
