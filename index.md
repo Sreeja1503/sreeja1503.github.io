@@ -9,6 +9,7 @@ title: Home - Sreeja Yalamaddi
         <img src="/assets/profile.jpg" alt="Sreeja Yalamaddi" class="profile-pic">
         <h2 class="welcome-text">Hey, welcome to my portfolio!</h2>
     </div>
+	
     <div class="bio-container">
         <p>I’m <strong>Sreeja Yalamaddi</strong>—an AI and Data Science enthusiast who loves turning complex problems into smart, scalable solutions. With over six years of experience, I’ve worked across industries like healthcare, finance, retail, and tech, building AI-driven systems that make a real impact.</p>
         <p>Right now, I’m diving even deeper into this field, pursuing my Master’s in Data Analytics at UT San Antonio (GPA: 4.0). It’s been an exciting journey of mastering AI, ML, and cloud technologies while constantly pushing the boundaries of what’s possible with data.</p>

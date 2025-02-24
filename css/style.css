@@ -16,6 +16,8 @@
     object-fit: cover; /* Ensure the image fills the circle */
     display: block; /* Ensure proper margins */
 }
+
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .profile-pic {
@@ -89,8 +91,9 @@ a:hover {
 }
 
 /* Header */
+/* Updated Header Styling */
 header {
-    background-color: var(--secondary-color); /* Navy Blue for header background */
+    background-color: var(--secondary-color); /* Navy Blue */
     color: white;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -108,18 +111,42 @@ header h1 {
 }
 
 header nav {
-    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 header nav a {
     color: white;
-    margin-right: 20px;
     font-weight: bold;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 header nav a:hover {
     color: var(--primary-color); /* Sky Blue on hover */
+}
+
+/* Social Media Icons */
+.header-icons {
+    display: flex;
+    gap: 25px;
+}
+
+.header-icons a {
+    display: flex;
+    align-items: left;
+}
+
+.header-icons img {
+    width: 50px;
+    height: 50px;
+    filter: brightness(0) invert(1); /* Makes icons white */
+    transition: transform 0.2s ease-in-out;
+}
+
+.header-icons img:hover {
+    transform: scale(1.1);
 }
 
 /* Sections */
@@ -281,12 +308,6 @@ section {
     gap: 150px; /* Adjusts space between image and text */
 }
 
-.profile-pic {
-    width: 220px; /* Adjust size as needed */
-    height: 220px;
-    border-radius: 50%;
-    object-fit: cover;
-}
 
 .welcome-text {
     font-size: 1.75em;
