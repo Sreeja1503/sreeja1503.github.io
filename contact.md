@@ -19,7 +19,7 @@ title: Contact - Sreeja Yalamaddi
 		<ul>
 			<li>Feel free to reach out via <strong>📧 Email</strong> at <a href="mailto:sreejayalamaddi125@gmail.com">sreejayalamaddi125@gmail.com</a></li>
 			
-			<li>Let’s connect on <strong><a href="https://www.linkedin.com/in/sreeja-yalamaddi-125sr/" target="_blank">LinkedIn</a></strong> —I’d be happy to chat about AI trends, career opportunities, or potential collaborations! </li>
+			<li>Let’s connect on <strong><a href="https://www.linkedin.com/in/sreeja-yalamaddi/" target="_blank">LinkedIn</a></strong> —I’d be happy to chat about AI trends, career opportunities, or potential collaborations! </li>
 			
 			<li> Check out my projects @ <strong><a href="https://github.com/sreeja-yalamaddi/" target="_blank">GitHub</a></strong> </li>
 		</ul>
