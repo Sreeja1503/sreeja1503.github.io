@@ -8,9 +8,9 @@ title: Projects - Sreeja Yalamaddi
 	<!-- Tab Navigation -->
 	<div class="tabs">
 		<button class="tab-button active" onclick="showTab('ml')">Machine Learning</button>
-		<button class="tab-button" onclick="showTab('cv')">Computer Vision</button>
+		<button class="tab-button" onclick="showTab('cv')">Deep Learning (Computer Vision)</button>
 		<button class="tab-button" onclick="showTab('nlp')">Natural Language Processing</button>
-		<button class="tab-button" onclick="showTab('other')">Other Projects</button>
+		<button class="tab-button" onclick="showTab('other')">Other AIML Projects</button>
 	</div>
 
 	<!-- Tab Content -->
