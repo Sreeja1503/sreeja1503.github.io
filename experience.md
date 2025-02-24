@@ -4,16 +4,24 @@ title: Experience - Sreeja Yalamaddi
 ---
 
 <section>
-    <h2>Research Experience</h2>
-	
-	    <div class="experience">
+    <h2>Research Experience</h2>	
+		<div class="experience">
 			<h3>Graduate Research Assistant</h3>
 			<h4>The University of Texas at San Antonio, San Antonio, TX</h4>
 			<p><em>August 2024 - Present</em></p>
-			<p>As a Graduate Research Assistant, I am involved in cutting-edge research in AI and machine learning, focusing on large language models and multimodal data analysis.</p>
+			<p>
+				Engaged in advanced research in AI and machine learning, focusing on large language models (LLMs) and multimodal data integration across diverse domains including economics, healthcare, and neurodegenerative disease detection.
+			</p>
 			<ul>
-				<li>Conducting research on fine-tuning strategies for large language models (LLMs) to improve performance on domain-specific tasks.</li>
-				<li>Developing preprocessing pipelines for multimodal wearable sensor data, enhancing data quality for subsequent analysis.</li>
+				<li>
+					<strong>Exploratory Research on OR & LLMs for Economics:</strong> Investigating the integration of operational research methods (e.g., linear programming, game theory) with LLMs to enhance economic forecasting and policy analysis by reviewing SOTA research and prototyping hybrid models.
+				</li>
+				<li>
+					<strong>Fine-Tuning LLMs for Healthcare Devices:</strong> Implementing advanced fine-tuning strategies (e.g., LoRA, adapter tuning) on LLMs for multimodal wearable sensor data (ECG, accelerometers), and developing robust preprocessing pipelines using Python, PyTorch, and TensorFlow.
+				</li>
+				<li>
+					<strong>Acoustic Analysis for Alzheimer’s Detection:</strong> Analyzing acoustic features (pitch, rhythm, speech patterns) from voice samples using signal processing (Librosa, SciPy) and deep learning (CNN-LSTM, ensemble methods) to identify early markers of Alzheimer’s.
+				</li>
 			</ul>
 		</div>
 	<h2>Professional Experience</h2>
